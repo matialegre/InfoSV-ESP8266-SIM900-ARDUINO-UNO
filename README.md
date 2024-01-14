@@ -12,6 +12,8 @@ Para estar admitido en el bot, pasar ID hablandole a @JsonDumpBot
 Si la conexión a google no da ping (no hay internet), pin GPIO2 = 4 en código, se pone en estado bajo, conectado al pin 12 del Arduino Uno, significando estado alto = hay internet, estado bajo = no hay internet. 
 
 De acá, envía un mensaje por SMS al número registrado/números rgistrados, avisando si hay, o no hay internet.
+![3cb4d0a475d53698ee8d39753001186d](https://github.com/matialegre/InfoSV-ESP8266-SIM900-ARDUINO-UNO/assets/127926199/894124df-13c7-48e4-9bf0-0d5d891808b9)
+
 
 
 Para el tema electricidad, se usa el pin 13 como entrada de 5V, viniendo de un adaptador para avisar si hay o no hay ELECTRICIDAD.
