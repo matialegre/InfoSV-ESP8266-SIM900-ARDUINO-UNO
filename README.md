@@ -5,22 +5,8 @@ Hablarle a @INFO_SERVIDORBOT por telegram, 1 sola persona admitida
 Para estar admitido en el bot, pasar ID hablandole a @JsonDumpBot
 
 
-if (text == "/start") {
-    String welcome = "BIENVENIDO, " + from_name + ".\n";
-    welcome += "USE LOS SIGUIENTES COMANDOS PARA SABER EL ESTADO DE INTERNET.\n\n";
-    welcome += "/estado PARA SABER EL ESTADO DE INTERNET (irrelevante)\n";
-    welcome += "/ping PARA HACER UN PING A GOOGLE \n";
-    welcome += "/calidad PARA SABER LA CALIDAD DE CONEXIÓN DEL ESP AL ROUTER \n";
-    welcome += "/PRENDER_DISPOSITIVO por ejemplo para prender un relé/transistor/contactor. No existe \n\n\n";
-    welcome += "La calidad de la señal se mide en dBm y puede interpretarse de la siguiente manera:\n";
-    welcome += "Excelente: -30 a -50 dBm\n";
-    welcome += "Buena: -50 a -60 dBm\n";
-    welcome += "Aceptable: -60 a -70 dBm\n";
-    welcome += "Pobre: -70 a -80 dBm\n";
-    welcome += "Muy pobre: -80 a -90 dBm\n";
-    welcome += "Sin señal: Menos de -90 dBm\n\n";
-    bot.sendMessage(chat_id, welcome, "");
-}
+![8795ac77c535eff24812598928eec8cf](https://github.com/matialegre/InfoSV-ESP8266-SIM900-ARDUINO-UNO/assets/127926199/c29a7ac1-0944-4f68-a969-faaa97c62b70)
+
 
 
 Si la conexión a google no da ping (no hay internet), pin GPIO2 = 4 en código, se pone en estado bajo, conectado al pin 12 del Arduino Uno, significando estado alto = hay internet, estado bajo = no hay internet. 
