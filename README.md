@@ -26,3 +26,11 @@ Los datos son avisados vía SMS, ya que la unica forma de avisar por internet, e
 
 El resto de las opciones, son una extensión del proyecto para agregar cosas.
 
+
+Comunicación UART Arduino UNO - PC
+
+![444838a83d72a0292252ffddf6e083af](https://github.com/matialegre/InfoSV-ESP8266-SIM900-ARDUINO-UNO/assets/127926199/8895c4ff-5978-49ba-bfd8-6c74d84fb41f)
+
+
+Todos los comandos enviados al SIM900 son comandos AT por Serial UAR
+
