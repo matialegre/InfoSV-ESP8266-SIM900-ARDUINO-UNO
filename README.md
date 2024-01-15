@@ -34,3 +34,18 @@ Comunicación UART Arduino UNO - PC
 
 Todos los comandos enviados al SIM900 son comandos AT por Serial UAR
 
+
+
+UART ARDUNO UNO Y SIM900 CUANDO CAMBIA DE ESTADO
+
+![321a019113b4acfe267cd2ce0005ea37](https://github.com/matialegre/InfoSV-ESP8266-SIM900-ARDUINO-UNO/assets/127926199/eadc755e-642b-4d43-b898-320d4b622b21)
+
+
+![WhatsApp Image 2024-01-14 at 9 51 26 PM](https://github.com/matialegre/InfoSV-ESP8266-SIM900-ARDUINO-UNO/assets/127926199/64e2b562-f6cd-48bd-957c-7b999b3ac802)
+
+
+VISTA CELULAR (ERROR QE FALTA LA ULTIMA LETRA X ACTUALIZAR)
+
+
+![WhatsApp Image 2024-01-14 at 9 51 58 PM](https://github.com/matialegre/InfoSV-ESP8266-SIM900-ARDUINO-UNO/assets/127926199/4b32d56d-e4ef-406a-a50f-5d87a05ef661)
+
