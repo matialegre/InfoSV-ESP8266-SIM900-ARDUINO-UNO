@@ -1,16 +1,22 @@
-# InfoSV-ESP8266-SIM900-ARDUINO-UNO
+# Proyecto InfoSV-ESP8266-SIM900-ARDUINO-UNO
+
+Este proyecto integra un ESP8266, un módulo SIM900 y un Arduino Uno para proporcionar información sobre la conectividad a Internet y la electricidad. Además, permite la comunicación UART entre el Arduino Uno y una PC.
+
+
+Telegram Bot - @INFO_SERVIDORBOT
+
+
+Para ser admitido en el bot, proporciona tu ID hablando con @JsonDumpBot
 
 Hablarle a @INFO_SERVIDORBOT por telegram, 1 sola persona admitida
-
-Para estar admitido en el bot, pasar ID hablandole a @JsonDumpBot
-
 
 ![8795ac77c535eff24812598928eec8cf](https://github.com/matialegre/InfoSV-ESP8266-SIM900-ARDUINO-UNO/assets/127926199/c29a7ac1-0944-4f68-a969-faaa97c62b70)
 
 
-
-Si la conexión a google no da ping (no hay internet), pin GPIO2 = 4 en código, se pone en estado bajo, conectado al pin 12 del Arduino Uno, significando estado alto = hay internet, estado bajo = no hay internet. 
-
+Comprobación de Conexión a Google
+Si la conexión a Google no responde al ping (sin internet), el pin GPIO2 (pin 4 en el código) se establece en estado bajo. Este pin está conectado al pin 12 del Arduino Uno.
+  Estado alto = hay internet.
+  Estado bajo = no hay internet.
 De acá, envía un mensaje por SMS al número registrado/números rgistrados, avisando si hay, o no hay internet.
 ![3cb4d0a475d53698ee8d39753001186d](https://github.com/matialegre/InfoSV-ESP8266-SIM900-ARDUINO-UNO/assets/127926199/894124df-13c7-48e4-9bf0-0d5d891808b9)
 
