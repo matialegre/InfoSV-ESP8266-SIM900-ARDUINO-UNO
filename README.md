@@ -48,4 +48,7 @@ VISTA CELULAR (ERROR QE FALTA LA ULTIMA LETRA X ACTUALIZAR)
 
 
 ![WhatsApp Image 2024-01-14 at 9 51 58 PM](https://github.com/matialegre/InfoSV-ESP8266-SIM900-ARDUINO-UNO/assets/127926199/4b32d56d-e4ef-406a-a50f-5d87a05ef661)
+![WhatsApp Image 2024-01-14 at 9 37 11 PM](https://github.com/matialegre/InfoSV-ESP8266-SIM900-ARDUINO-UNO/assets/127926199/edc3a7d0-31c3-4a98-9969-bffc9cf84667)
+
+
 
