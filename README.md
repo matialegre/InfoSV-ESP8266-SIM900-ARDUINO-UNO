@@ -4,8 +4,6 @@ Este proyecto integra un ESP8266, un módulo SIM900 y un Arduino Uno para propor
 
 
 Telegram Bot - @INFO_SERVIDORBOT
-
-
 Para ser admitido en el bot, proporciona tu ID hablando con @JsonDumpBot
 
 Hablarle a @INFO_SERVIDORBOT por telegram, 1 sola persona admitida
@@ -13,18 +11,29 @@ Hablarle a @INFO_SERVIDORBOT por telegram, 1 sola persona admitida
 ![8795ac77c535eff24812598928eec8cf](https://github.com/matialegre/InfoSV-ESP8266-SIM900-ARDUINO-UNO/assets/127926199/c29a7ac1-0944-4f68-a969-faaa97c62b70)
 
 
+
 Comprobación de Conexión a Google
+
+
 Si la conexión a Google no responde al ping (sin internet), el pin GPIO2 (pin 4 en el código) se establece en estado bajo. Este pin está conectado al pin 12 del Arduino Uno.
   Estado alto = hay internet.
   Estado bajo = no hay internet.
-De acá, envía un mensaje por SMS al número registrado/números rgistrados, avisando si hay, o no hay internet.
+
+
+Notificación por SMS
+
+
+En caso de falta de conexión a Internet, se envía un mensaje SMS al número registrado/números registrados utilizando el siguiente ID: 3cb4d0a475d53698ee8d39753001186d
+
 ![3cb4d0a475d53698ee8d39753001186d](https://github.com/matialegre/InfoSV-ESP8266-SIM900-ARDUINO-UNO/assets/127926199/894124df-13c7-48e4-9bf0-0d5d891808b9)
 
 
 
-Para el tema electricidad, se usa el pin 13 como entrada de 5V, viniendo de un adaptador para avisar si hay o no hay ELECTRICIDAD.
+Monitoreo de Electricidad
+Se utiliza el pin 13 como entrada de 5V desde un adaptador para indicar la presencia o ausencia de electricidad.
 
-Se necesita una FUENTE EXTERNA potente para poder hacer andar la antena GSM (2A COMO MÍNIMO, 5V/9V/12V) A SOLUCIONAR.
+Requisitos de Energía para la Antena GSM
+Se requiere una fuente externa potente (mínimo 2A, 5V/9V/12V) para alimentar la antena GSM.
 
 
 
